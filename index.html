@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio stiven</title>
+</head>
+
+<body>
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">@stiven Rodriguez</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre Mí</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">Portafolio</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <section id="inicio" class="inicio">
+        <div class="container-banner">
+            <div class="container-img">
+                <img src="img/2.jpg" alt="">
+            </div>
+            <h1>stiven</h1>
+            <h2>Aprendiz SENA en Análisis y Desarrollo de Software</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobremi" class="sobremi">
+        <div class="container-section">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Stiven rodriguez.</span> Soy aprendiz SENA en Análisis y Desarrollo de Software. apasionado por la 
+                tecnologia y el aprendizaje.</p>
+
+            <div class="fila">
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li><strong>Cumpleaños</strong> 14 de noviembre</li>
+                        <li><strong>Teléfono</strong> +57 3184815640</li>
+                        <li><strong>Email</strong> jhonstivenrodriguezgalarza@gmail.com</li>
+                        <li><strong>Website</strong> https://github.com/jhonstivenrodriguezgalarza</li>
+                        <li><strong>Dirección</strong> Garzón, Huila, Colombia</li>
+                        <li><strong>Cargo</strong> <span>Aprendiz ADSO</span></li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="container-intereses">
+                        <div class="interes"><i class="fa-solid fa-code"></i><span>Programar</span></div>
+                        <div class="interes"><i class="fa-solid fa-palette"></i><span>Diseño</span></div>
+                        <div class="interes"><i class="fa-solid fa-camera"></i><span>Fotos</span></div>
+                        <div class="interes"><i class="fa-solid fa-laptop"></i><span>Tecnología</span></div>
+                        <div class="interes"><i class="fa-solid fa-music"></i><span>Música</span></div>
+                        <div class="interes"><i class="fa-solid fa-plane"></i><span>Viajar</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container-section">
+            <h2>Skills</h2>
+            <div class="fila">
+                <div class="col">
+                    <h3>Technical Skills</h3>
+
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso javascript"><span>65%</span></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso htmlcss"><span>89%</span></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>html y CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso photoshop"><span>90%</span></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>GitHub</span>
+                        <div class="barra-skill">
+                            <div class="progreso wordpress"><span>80%</span></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>bocadoApp</span>
+                        <div class="barra-skill">
+                            <div class="progreso react"><span>80%</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <h3>Professional Skills</h3>
+
+                    <div class="skill">
+                        <span>responsabilidad</span>
+                        <div class="barra-skill">
+                            <div class="progreso comunicacion"><span>85%</span></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso equipo"><span>90%</span></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso creatividad"><span>99%</span></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso dedicacion"><span>80%</span></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>aprendizaje continuo</span>
+                        <div class="barra-skill">
+                            <div class="progreso proyect"><span>70%</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="curriculum" class="curriculum">
+        <div class="container-section">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+
+                    <div class="item izq">
+                        <h4>Análisis y Desarrollo de Software</h4>
+                        <span class="casa">SENA</span>
+                        <span class="fecha">2025 - 2026</span>
+                        <p>Formación en desarrollo web, bases de datos y programación.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4> bocadoApp</h4>
+                        <span class="casa">proyecto ADSO</span>
+                        <span class="fecha">2026</span>
+                        <p>.Aplicacion desarrollada para gestionar pedidos de alimentos de forma rapida y eficiente</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+
+                    <div class="item der">
+                        <h4>Frontend Developer</h4>
+                        <span class="casa">Proyecto académico</span>
+                        <span class="fecha">2026</span>
+                        <p>Desarrollo de una Aplicacion para la gestion de pedidos utilizando HTML, CSS y JavaScript.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>GitHub</h4>
+                        <span class="casa">Repositorio personal</span>
+                        <span class="fecha">2026</span>
+                        <p>Organización de proyectos y evidencias de aprendizaje.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portafolio" class="portafolio">
+        <div class="container-section">
+            <h2>Portafolio</h2>
+            <div class="galeria">
+                <a href="EJERCICIOS/BATERIA/index.html" target="_blank" rel="noopener noreferrer">
+                        <article class="proyecto">
+                            <img src="IMG EJER/eje1.png" alt="Proyecto creativo uno">
+                            <div class="superposicion-proyecto">
+                                <h3>Bateria</h3>
+                                <p>Manejo DOM</p>
+                            </div>
+                        </article>
+                        </a>
+                        <a href="EJERCICIOS/CALCULADORA/index.html" target="_blank" rel="noopener noreferrer">
+                        <article class="proyecto">
+                            <img src="IMG EJER/eje2.png" alt="Proyecto creativo dos">
+                            <div class="superposicion-proyecto">
+                                <h3>Calculadora</h3>
+                                <p>Manejo DOM</p>
+                            </div>
+                        </article>
+                        </a>
+                        <a href="EJERCICIOS/CARRUCEL/index3.html" target="_blank" rel="noopener noreferrer">
+                        <article class="proyecto">
+                            <img src="IMG EJER/eje3.png" alt="Proyecto creativo tres">
+                            <div class="superposicion-proyecto">
+                                <h3>Carrucel</h3>
+                                <p>Manejo DOM</p>
+                            </div>
+                        </article>
+                        </a>
+                        <a href="EJERCICIOS/CRONOMETRO/index.html" target="_blank" rel="noopener noreferrer">
+                        <article class="proyecto">
+                            <img src="IMG EJER/eje4.png" alt="Proyecto creativo cuatro">
+                            <div class="superposicion-proyecto">
+                                <h3>Cronometro</h3>
+                                <p>Manejo DOM</p>
+                            </div>
+                        </article>
+                        </a>
+                        <a href="EJERCICIOS/CURSOR/index.html" target="_blank" rel="noopener noreferrer">
+                        <article class="proyecto">
+                            <img src="IMG EJER/eje5.png" alt="Proyecto creativo cinco">
+                            <div class="superposicion-proyecto">
+                                <h3>Cursor</h3>
+                                <p>Manejo DOM</p>
+                            </div>
+                        </article>
+                        </a>
+                        <a href="EJERCICIOS/GALERIA 3D/index.html" target="_blank" rel="noopener noreferrer">
+                        <article class="proyecto">
+                            <img src="IMG EJER/eje6.png" alt="Proyecto creativo seis">
+                            <div class="superposicion-proyecto">
+                                <h3>Galeria 3D</h3>
+                                <p>Manejo DOM</p>
+                            </div>
+                        </article>
+                        </a>
+                        <a href="EJERCICIOS/LISTADO/index.html" target="_blank" rel="noopener noreferrer">
+                        <article class="proyecto">
+                            <img src="IMG EJER/eje7.png" alt="Proyecto creativo seis">
+                            <div class="superposicion-proyecto">
+                                <h3>Listado</h3>
+                                <p>Manejo DOM</p>
+                            </div>
+                        </article>
+                        </a>
+                        <a href="EJERCICIOS/MENSAJE/index.html" target="_blank" rel="noopener noreferrer">
+                        <article class="proyecto">
+                            <img src="IMG EJER/eje8.png" alt="Proyecto creativo seis">
+                            <div class="superposicion-proyecto">
+                                <h3>Mensaje</h3>
+                                <p>Manejo DOM</p>
+                            </div>
+                        </article>
+                        </a>
+                        <a href="EJERCICIOS/CARRO/index.html" target="_blank" rel="noopener noreferrer">
+                        <article class="proyecto">
+                            <img src="IMG EJER/eje9.png" alt="Proyecto creativo seis">
+                            <div class="superposicion-proyecto">
+                                <h3>Carro</h3>
+                                <p>Manejo DOM</p>
+                            </div>
+                        </article>
+                        </a>
+                    </div>
+        </div>
+    </section>
+    
+    <section id="contacto" class="contacto">
+        <div class="container-section">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <div class="col">
+                    <input type="text" placeholder="Tu nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Correo electrónico">
+                    <input type="text" placeholder="Tema">
+                    <textarea cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+    
+                <div class="col">
+                    <img src="img/UBICACIÓN.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li><i class="fa-solid fa-location-dot"></i> Garzón, Huila, Colombia</li>
+                            <li><i class="fa-solid fa-mobile-screen"></i> +57 3184815640</li>
+                            <li><i class="fa-solid fa-envelope"></i> jhonstivenrodriguezgalarza@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <a href="#inicio" class="arriba"><i class="fa-solid fa-angles-up"></i></a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+    </body>
+    
+    </html>
